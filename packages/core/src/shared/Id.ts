@@ -9,5 +9,3 @@ export default class Id {
       return validate(id);
     }
 }
-
-console.log(Id.novo());

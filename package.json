@@ -1,10 +1,12 @@
 {
   "name": "eventos",
   "version": "1.0.0",
+  "private": "true",
   "scripts": {
     "dev": " run-p packages:* apps:*",
     "apps:frontend": "cd apps/frontend && npm run dev",
     "apps:backend": "cd apps/backend && npm run start:dev",
+    "-apps:mobile": "cd apps/mobile && npm run android",
     "packages:core": "cd packages/core && npm run dev"
   },
   "keywords": [],
